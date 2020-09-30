@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image:
+            url(http://wallpapers-images.ru/1920x1080/anime/wallpapers/anime-images-1920x1080-12.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 30px;
+    background-color: rgba(51,51,51,.9);
+    border-top: 3px solid #f66;
+    border-bottom: 3px solid #f66;
+}
+
+.header__title {
+    color: white;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+}
+
+.root {
+    max-width: 70%;
+    margin: 40px auto 0 auto;
+}
+
+.list__block {
+    margin-bottom: 20px;
+}
+
+.list__item {
+    color: white;
+    background-color: rgba(51,51,51,.9);
+    padding: 20px;
+}
+
+.list__title {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+}
+
+.button {
+    width: 70px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button__redact {
+    color: lawngreen;
+    background: rgba(51,51,51,.9);
+    border: 2px solid #f66;
+}
+
+.button__redact:hover {
+    color: white;
+    background: #f66;
+}
+
+.flag__delete {
+    width: 70px;
+    height: 25px;
+}
+
+.button__add {
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    color: white;
+    background: rgba(51,51,51,.9);
+    border: 2px solid #f66;
+}
+
+.button__add:hover {
+    color: white;
+    background: #f66;
+}
+
+.button__save {
+    color: white;
+    background: rgba(51,51,51,.9);
+    border: 2px solid #f66;
+}
+
+.button__save:hover {
+    color: white;
+    background: #f66;
+}
+
+.button__delete {
+    width: 10%;
+    height: 60px;
+    font-size: 17px;
+    color: white;
+    background: rgba(51,51,51,.9);
+    border: 2px solid #f66;
+}
+
+.button__delete:hover {
+    color: white;
+    background: #f66;
+}
+
+.input__control {
+    background: white;
+    height: 20px;
+    border: 1px solid black;
+    width: calc(100% - 85px);
+}
+
+.right__block {
+    float: right;
+}
+
+.left__block {
+    float: left;
+}
+
+.noBlock {
+    color: white;
+    background-color: rgba(51,51,51,.9);
+    padding: 20px;
+}
+
+.center__block{
+    position: fixed;
+    bottom: 50%;
+    left: 35px;
+    right: 40%;
+    color: white;
+}
